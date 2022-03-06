@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_WireframeTwoTone
+  m_Shader: {fileID: 4800000, guid: 2b621e4598be7e64cb39d1e2e608433a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _WireframeAliasing: 1.5
+    - _WireframeWidth: 0.079
+    - wireframeWidth: 0.07
+    m_Colors:
+    - BackColour: {r: 1, g: 0, b: 0, a: 1}
+    - _WireframeBackColour: {r: 0.6862745, g: 0.6862745, b: 0.6862745, a: 1}
+    - _WireframeColour: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _WireframeFrontColour: {r: 1, g: 1, b: 1, a: 1}
+    - backColour: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+    - frontColour: {r: 1, g: 1, b: 1, a: 1}
+    - renderColour: {r: 0.6, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
