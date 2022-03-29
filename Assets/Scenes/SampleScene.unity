@@ -174,7 +174,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f48d20ca4d0a937469911ec8e455b943, type: 2}
+  - {fileID: 2100000, guid: deb39671c44c0304783f4ca80dcd5457, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -269,7 +269,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f48d20ca4d0a937469911ec8e455b943, type: 2}
+  - {fileID: 2100000, guid: deb39671c44c0304783f4ca80dcd5457, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -345,7 +345,7 @@ MonoBehaviour:
   windmill: {fileID: 790007392}
   windmillMeshRenderer: {fileID: 790007394}
   bladesMeshRenderer: {fileID: 1718110161}
-  wireframeMaterial: {fileID: 2100000, guid: 6b8b090621ed22d449397f3c72a828b3, type: 2}
+  wireframeMaterial: {fileID: 2100000, guid: deb39671c44c0304783f4ca80dcd5457, type: 2}
   bladesRotate: {fileID: 1718110160}
 --- !u!4 &621437692
 Transform:
