@@ -17,11 +17,28 @@ public class Building : MonoBehaviour {
   private List<Material> bladesBuildingMaterials = new List<Material>();
 
   private bool showingMesh = false;
+  private bool showingOverlay = false;
 
   void Start() {
     // We take a copy of the objects materials so we can replace them later.
     windmillMeshRenderer.GetMaterials(windmillMaterials);
     bladesMeshRenderer.GetMaterials(bladesMaterials);
+  }
+
+  public void ToggleOverlay() {
+    Shader shader;
+    showingOverlay = !showingOverlay;
+    if (showingOverlay) {
+      shader = Shader.Find("Lit/WireframeOnSurfaceShader");
+    } else {
+      shader = Shader.Find("Standard");
+    }
+    foreach (Material material in windmillMaterials) {
+      material.shader = shader;
+    }
+    foreach (Material material in bladesMaterials) {
+      material.shader = shader;
+    }
   }
 
   // Switch between wireframe and rendered modes.
